@@ -24,3 +24,33 @@ body{
     margin: 0 auto;
     position: relative;
 }
+
+
+/* 헤더 */
+
+.hd{padding: 20px 0; background: white; position: absolute;width: 100%;}
+.hd .navWrap{height: 35px;}
+
+.hd h1{
+    width: 165px; height: 35px;
+    float: left;
+}
+
+.hd h1 img{width: 100%;}
+.hd .gnb {float: right;}
+.hd .gnb li{float: left; width: 170px;}
+.hd .gnb li a{
+    display: block; line-height: 35px;
+    text-align: center;
+}
+
+.slideWrap .sItem{
+    /* height: 100vh; */
+    /* 화면에 꽉 채움 */
+    min-height: 400px;
+}
+
+/* 섹션 */
+.content{
+    height: 300px; background: skyblue;
+}
