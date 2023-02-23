@@ -30,32 +30,98 @@ body{
 
 .hd{
     padding: 20px 0; background: white; 
-    position: fixed;width: 100%;z-index: 9999;
+    width: 100%;z-index: 9999; position: fixed;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    top: 0;
 }
 
 .hd .navWrap{height: 35px;}
 
 .hd h1{
     width: 165px; height: 35px;
-    float: left;
+    float: left; 
 }
 
 .hd h1 img{width: 100%;}
-.hd .gnb {float: right;}
+.hd .gnb {float: right; }
 .hd .gnb li{float: left; width: 170px;}
 .hd .gnb li a{
     display: block; line-height: 35px;
     text-align: center;
+    
 }
 
+
+/* 슬라이드 */
+
+
+.slideWrap{height: 900px; margin-top: 72px;}
 .slideWrap .sItem{
-    /* height: 100vh; */
+    
+    height: 100vh; 
+    /* height: 400px; */
     /* 화면에 꽉 채움 */
-    min-height: 400px;
+   /* min-height: 400px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: #000;*/ 
 }
 
-/* 섹션 */
-.content{
-    height: 300px; background: skyblue;
+
+.txtWrap{
+    margin: 0 auto;
+    
+    /* background: skyblue; */
 }
+
+.twrap{
+    height: 260px;
+    width: 456px;
+    /* display: block; */
+    color: white;
+    /* background: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc( 456px / 2);
+}
+
+
+/* 섹션첫번째 */
+
+.content{
+    padding: 80px;
+    height: 300px; 
+    margin-top: 35px;
+    /* background: skyblue; */
+}
+
+.conWrap1{
+    float: left;
+    font-size: 44px;
+    letter-spacing: -0.8px;
+    width: 1280px;
+}
+.conWrap2{
+    float: right;
+    margin-bottom: 100px;
+}
+
+/* 섹션두번째 */
+
+.moon{
+    width: 300px;
+    margin: 0 auto;
+    background: skyblue;
+    /* position: relative; */
+}
+
+.moonWrap{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+    background: gold;
+}
+
