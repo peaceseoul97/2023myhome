@@ -139,3 +139,38 @@ body{
 }
 
 .jobWrap p{color:#888}
+
+
+/* 섹션 Awrap */
+
+.Awrap{
+    margin-top: 160px;
+    background: white;
+    width: 1280px;
+    height: 462px;
+    position: relative;
+}
+
+.Awrap1{
+    background: #ffd442;
+    height: 338px;
+    width: 1114px;
+}
+
+.Awrap2{
+    position: absolute;
+    height: 360px;
+    width: 592px;
+    right: 0;
+    display: block;
+    bottom: 0;
+}
+
+/* 섹션Bwrap */
+.Bwrap{
+    width: 100%;
+    background: #f7f8f9;
+    height: 965px;
+    padding: 162px;
+    /* margin-top: ; */
+}
