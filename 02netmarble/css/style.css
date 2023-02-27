@@ -87,6 +87,11 @@ body{
 }
 
 
+.bigWrap{
+    height: 1822px;
+    width: 1280px;
+    padding: 160px, 30px, 160px, 30px;
+}
 /* 섹션첫번째 */
 
 .content{
@@ -140,6 +145,8 @@ body{
 
 .jobWrap p{color:#888}
 
+/* .tWrap{} */
+
 
 /* 섹션 Awrap */
 
@@ -155,6 +162,26 @@ body{
     background: #ffd442;
     height: 338px;
     width: 1114px;
+    padding: 102px, 520px, 102px, 104px;
+    /* left: 50px; */
+}
+
+.Awrap1_1{
+    width: 490px;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 40px;
+    border: 1px solid red;
+}
+
+.Awrap1_2{
+    width: 490px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.6px;
+    border: 1px solid red;
 }
 
 .Awrap2{
@@ -164,6 +191,7 @@ body{
     right: 0;
     display: block;
     bottom: 0;
+    
 }
 
 /* 섹션Bwrap */
@@ -171,6 +199,20 @@ body{
     width: 100%;
     background: #f7f8f9;
     height: 965px;
-    padding: 162px;
-    /* margin-top: ; */
+}
+
+.Bwrap1{
+    /* z-index: 9999; */
+    /* background: skyblue; */
+    height: 965px;
+}
+
+
+
+/* 섹션Cwrap */
+.Cwrap{
+    width: 100%;
+    background: #171717;
+    height: 164px;
+    padding: 64px;
 }
