@@ -197,3 +197,19 @@ body{
     background: #f7f8f9;
     height: 965px;
 }
+
+
+/* dWrap */
+
+.dWrap{
+    width: 100%;
+    background: #171717;
+    height: 292px;
+}
+
+.dWrap1{
+    height: 164px;
+    padding: 20px, 0;
+    border: 1px solid white;
+    margin-bottom: 0;
+}
