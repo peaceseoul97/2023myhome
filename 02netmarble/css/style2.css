@@ -100,7 +100,7 @@ body{
 .bigWrap2{
     height: 124px;
     width: 1216px;
-    padding: 0 0 20px 0;
+    padding: 0 0 20px 0 ;
     font-size: 44px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -147,10 +147,10 @@ body{
     height: 86px;
     background: #fff;
     padding: 20px, 16px, 0, 16px;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #000;
+    border: 1px solid #000; */
     /* position: absolute; */
 }
 
@@ -196,6 +196,11 @@ body{
     width: 100%;
     background: #f7f8f9;
     height: 965px;
+}
+
+.cWrap1{
+    background: gold;
+    
 }
 
 
